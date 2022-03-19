@@ -2,9 +2,9 @@
   <main class="about">
     <img src="@/assets/emerald_witch.png" />
     <span>
-      An aspiring full stack web developer? Artist? Musician? Vtuber? All of
-      this, and less, can be found within the walls of this wretched form I have
-      been bound to.
+      An aspiring full stack web developer? Artist? Musician? Vtuber? <br />
+      All of this, and less, can be found within the walls of this wretched form
+      I have been bound to.
     </span>
   </main>
   <footer>
@@ -25,9 +25,13 @@ main {
   padding-right: 50px;
   border: 2px solid white;
   border-radius: 100px;
-
+  margin-left: 100px;
+  margin-right: 100px;
   img {
-    max-width: 50%;
+    max-width: 25rem;
+    @media screen and (max-width: 700px) {
+      max-width: 150pt;
+    }
   }
   span {
     text-align: left;
@@ -41,6 +45,8 @@ main {
   }
   @media screen and (max-width: 700px) {
     padding: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
 footer {

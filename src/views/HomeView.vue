@@ -35,6 +35,8 @@ main {
   padding: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
   p {
     padding-top: 50pt;
     font-size: 3rem;
@@ -47,6 +49,8 @@ main {
     img {
       max-width: 150pt;
     }
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
 footer {
