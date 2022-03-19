@@ -1,0 +1,14 @@
+#!/bin/bash
+BACKEND=~/Documents/programming/rust/blogomatic/public
+
+
+#build the static files
+npm run build
+
+#clean the backend dir
+echo "Cleaning current frontend files"
+#rm -rf $BACKEND
+
+#copy files into the backend dir
+echo "Copying into $BACKEND"
+cp -r ./dist/* $BACKEND
