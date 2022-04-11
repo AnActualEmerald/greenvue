@@ -8,6 +8,12 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
   },
   {
+    path: "/game",
+    name:"game",
+    component: () =>
+      import("@/views/GameView.vue"),
+  },
+  {
     path: "/about",
     name: "about",
     // route level code-splitting
@@ -16,6 +22,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/blog",
+    name: "blog",
+    component: () => 
+      import("@/views/BlogView.vue"),
+  }
 ];
 
 const router = createRouter({
