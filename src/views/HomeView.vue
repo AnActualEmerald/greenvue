@@ -1,12 +1,5 @@
 <template>
     <main>
-        <!-- <img
-            src="https://media2.giphy.com/media/FqdGGgugkC4Xm/giphy.gif?cid=790b76117733a46cffb567b7dc09ecbf057eaf4f53b3617b&rid=giphy.gif&ct=g"
-        />
-        <p>
-            I'm hard at work making the worst possible portfolio website for you
-            to enjoy
-        </p> -->
         <h1>Some projects that I'm proud of</h1>
         <table cellspacing="10em">
             <tr>
