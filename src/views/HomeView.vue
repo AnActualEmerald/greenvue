@@ -7,13 +7,19 @@
             I'm hard at work making the worst possible portfolio website for you
             to enjoy
         </p> -->
-        <table>
+        <h1>Some projects that I'm proud of</h1>
+        <table cellspacing="10em">
             <tr>
-                <ProjectCell name="test" repo="bet" desc="Non" />
+                <!--These should be pulled from somewhere rather than hardcoded into the page-->
                 <ProjectCell
-                    name="GVRH"
-                    repo="https://github.com/anactualemerald/gvrh"
-                    desc="A discord bot"
+                    name="lib-mal"
+                    repo="https://github.com/AnActualEmerald/lib-mal"
+                    desc="A rust crate for interacting with the public API of MyAnimeList.com"
+                />
+                <ProjectCell
+                    name="BerylScript"
+                    desc="An interpreted programming I wrote as one of my first projects in rust."
+                    repo="https://github.com/AnActualEmerald/BerylScript"
                 />
             </tr>
         </table>
@@ -42,14 +48,21 @@ p {
     text-align: center;
 }
 main {
-    border: 2px solid white;
-    border-radius: 100px;
+    // border: 2px solid white;
+    // border-radius: 100px;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     padding: 50px;
-    padding-top: 100px;
+    // padding-top: 100px;
     padding-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    h1 {
+        text-align: center;
+        font-size: medium;
+        padding-bottom: 2.5em;
+    }
     p {
         padding-top: 50pt;
         font-size: 3rem;
