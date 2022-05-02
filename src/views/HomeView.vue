@@ -1,9 +1,9 @@
 <template>
     <main>
-        <h1>Some projects that I'm proud of</h1>
+        <!-- <h1>Some projects that I'm proud of</h1>
         <table cellspacing="10em">
             <tr>
-                <!--These should be pulled from somewhere rather than hardcoded into the page-->
+                These should be pulled from somewhere rather than hardcoded into the page
                 <ProjectCell
                     name="lib-mal"
                     repo="https://github.com/AnActualEmerald/lib-mal"
@@ -15,7 +15,7 @@
                     repo="https://github.com/AnActualEmerald/BerylScript"
                 />
             </tr>
-        </table>
+        </table> -->
     </main>
     <footer>
         <p>
@@ -27,11 +27,11 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import ProjectCell from "@/components/ProjectCell.vue";
+// import ProjectCell from "@/components/ProjectCell.vue";
 
 export default defineComponent({
     components: {
-        ProjectCell,
+        // ProjectCell,
     },
 });
 </script>
